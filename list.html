@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品优购列表页-123456789</title>
+    <!-- 网站说明 -->
+    <meta name="description" content="123456789" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="1,2,3,4">
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- 引入初始化文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入列表页的css文件 -->
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+
+
+    <!-- 快捷导航shortcut模块 -->
+    <section class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎宁！ &nbsp; </li>
+                    <li>
+                        <a href="#">请登录</a>&nbsp;
+                        <a href="#" class="style_red">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <Ul>
+                    <li>我的订单</li>
+                    <li></li>
+                    <li class="arrow-icon">我的品优购</li>
+                    <li></li>
+                    <li>品优购会员</li>
+                    <li></li>
+                    <li>企业采购</li>
+                    <li></li>
+                    <li class="arrow-icon">关注品优购</li>
+                    <li></li>
+                    <li class="arrow-icon">客服服务</li>
+                    <li></li>
+                    <li class="arrow-icon">网站导航</li>
+                </Ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 头部header模块制作 -->
+    <header class="header w">
+        <!-- logo模块 -->
+        <div class="logo">
+            <h1>
+                <!-- title属性，把鼠标放上去就可以看到文字了 -->
+                <a href="index.html" title="品优购">品优购</a>
+            </h1>
+        </div>
+
+
+        <!-- 列表页的秒杀模块 -->
+        <div class="sk">
+            <img src="images/sk.png" alt="">
+        </div>
+
+
+        <!-- search模块 -->
+        <div class="search">
+            <!-- value需要人们自己删除 -->
+            <input type="search" placeholder="语言开发">
+            <button>搜索</button>
+        </div>
+
+        <!-- hotwords模块 -->
+        <div class="hotwords">
+            <a href="#" class="style_red">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+        </div>
+
+        <!-- 购物盒子模块 -->
+        <!-- 用before和after伪元素 -->
+        <div class="shopcar">我的购物车
+            <i class="count">8</i>
+        </div>
+    </header>
+
+    <!-- nav模块 -->
+    <nav class="nav ">
+        <div class="w">
+            <div class="sk_list">
+                <ul>
+                    <li><a href="#">品优购秒杀</a></li>
+                    <li><a href="#">品优购秒杀</a></li>
+                    <li><a href="#">品优购秒杀</a></li>
+                </ul>
+            </div>
+            <div class="sk_con">
+                <ul>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#" class="style_red">女鞋</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">女装</a></li>
+                    <li><a href="#">更多分类</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- 列表页的主体部分 -->
+    <div class="w" sk_container>
+        <div class="sk_hd">
+            <img src="upload/bg_03.png" alt="">
+        </div>
+        <div class="sk_bd">
+            <!-- 清除浮动 -->
+            <!-- 因为li加了浮动，所以给他父亲ul清除浮动，否则最下面的文字会围绕上面的图片，格式错误 -->
+            <!-- clearfix已在base.css中写过 -->
+            <ul class="clearfix">
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+                <li>
+                    <img src="upload/list.png" alt="">
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 底部模块 -->
+    <footer class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <h5></h5>
+                        <div class="service_txt">
+                            <h4>正品保障</h4>
+                            <p>正品保障，提供发票</p>
+                        </div>
+                    </li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>3</li>
+                </ul>
+            </div>
+
+            <div class="mod_help">
+                <dl>
+                    <dt>服务指南</dt>
+                    <dd><a href="#">1</a></dd>
+                    <dd><a href="#">2</a></dd>
+                    <dd><a href="#">3</a></dd>
+                    <dd><a href="#">4</a></dd>
+                    <dd><a href="#">5</a></dd>
+                    <dd><a href="#">6</a></dd>
+                </dl>
+                <dl>
+                    <dt>1</dt>
+                    <dd><a href="#">1</a></dd>
+                    <dd><a href="#">2</a></dd>
+                    <dd><a href="#">3</a></dd>
+                    <dd><a href="#">4</a></dd>
+                    <dd><a href="#">5</a></dd>
+                    <dd><a href="#">6</a></dd>
+                </dl>
+                <dl>
+                    <dt>2</dt>
+                    <dd><a href="#">1</a></dd>
+                    <dd><a href="#">2</a></dd>
+                    <dd><a href="#">3</a></dd>
+                    <dd><a href="#">4</a></dd>
+                    <dd><a href="#">5</a></dd>
+                    <dd><a href="#">6</a></dd>
+                </dl>
+                <dl>
+                    <dt>3</dt>
+                    <dd><a href="#">1</a></dd>
+                    <dd><a href="#">2</a></dd>
+                    <dd><a href="#">3</a></dd>
+                    <dd><a href="#">4</a></dd>
+                    <dd><a href="#">5</a></dd>
+                    <dd><a href="#">6</a></dd>
+                </dl>
+                <dl>
+                    <dt>4</dt>
+                    <dd><a href="#">1</a></dd>
+                    <dd><a href="#">2</a></dd>
+                    <dd><a href="#">3</a></dd>
+                    <dd><a href="#">4</a></dd>
+                    <dd><a href="#">5</a></dd>
+                    <dd><a href="#">6</a></dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><img src="images/wx_cz.jpg" alt="">品优购客户端</dd>
+                </dl>
+            </div>
+
+            <div class="mod_copyright">
+                <div class="limk">
+                    <a href="#">关于我们</a>|
+                    <a href="#">联系我们</a>|
+                    <a href="#">关于我们</a>|
+                    <a href="#">商家入驻</a>|
+                    <a href="#">营销中心</a>|
+                    <a href="#">友情链接</a>|
+                    <a href="#">关于我们</a>|
+                    <a href="#">营销中心</a>|
+                    <a href="#">友情链接</a>|
+                    <a href="#">关于我们</a>|
+                </div>
+                <div class="copyright">
+                    <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100</p>
+                    <p>京ICP备08001421号京公网安备110108007702</p>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
